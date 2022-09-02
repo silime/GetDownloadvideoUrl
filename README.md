@@ -1,14 +1,18 @@
 # TMOOC 视频下载脚本
-一键下载TMOOC视频脚本
+ 一键下载TMOOC视频脚本
+
 **注意：对于付费资源需要有相应权限才能下载。另外，代码只做学习交流用途，请勿用于非法情景。**
+
 ## 依赖
 python >= 3.7.2
 
 pip >= 19.0.2
 
 selenium >= 4.4.0
-- 下载对应chrome版本的chromedriver 放在同级目录下
-* [chromedriver](https://registry.npmmirror.com/binary.html?path=chromedriver/)
+> 下载对应chrome版本的chromedriver 放在同级目录下
+
+[chromedriver](https://registry.npmmirror.com/binary.html?path=chromedriver/)
+
 ## 食用
 1.执行下述命令。
 
@@ -18,7 +22,7 @@ python3 GetDownloadvideoUrl.py
 2.登录视频的网址，把视频地址复制
 
 ```
-如 https://tts.tmooc.cn/video/showVideo?menuId=981376&version=xxx
+如: https://tts.tmooc.cn/video/showVideo?menuId=981376&version=xxx
 ```
 
 3.粘贴复制的网站
